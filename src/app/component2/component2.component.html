@@ -1,0 +1,10 @@
+<h3>Angular Demo</h3>
+<div>
+  <input type="text" #name placeholder="Your Name" /><br />
+  <input type="number" #age placeholder="Age" /><br />
+  <input type="text" #college placeholder="College" /><br />
+
+  <button (click)="addToStore(name.value, age.value, college.value)">
+    Add to Table
+  </button>
+</div>
